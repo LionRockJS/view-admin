@@ -1,0 +1,26 @@
+{
+  "name": "@lionrockjs/view-admin",
+  "version": "0.0.1",
+  "description": "LionRockJS Admin Views",
+  "keywords": [
+    "lionrockjs",
+    "admin",
+    "view",
+    "liquidjs"
+  ],
+  "homepage": "https://github.com/LionRockJS/view-admin#readme",
+  "bugs": {
+    "url": "https://github.com/LionRockJS/view-admin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LionRockJS/view-admin.git"
+  },
+  "license": "MIT",
+  "author": "Kojin Nakana",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ../../../node_modules/jest/bin/jest.js --coverage"
+  }
+}

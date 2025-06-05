@@ -1,0 +1,13 @@
+{
+  "wrapper": "div.container.container-columns",
+  "sections": {
+    "main": {
+      "type": "card-login",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

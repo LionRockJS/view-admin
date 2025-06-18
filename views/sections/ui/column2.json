@@ -1,5 +1,5 @@
 {
-  "wrapper": "div.flex.h-full",
+  "wrapper": "div.flex.grow",
   "sections": {
     "column_1": {
       "type": "{{section.settings.column_1}}",

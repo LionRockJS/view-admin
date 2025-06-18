@@ -1,5 +1,5 @@
 {
-  "wrapper": "div.w-full",
+  "wrapper": "div.w-full.flex.flex-col",
   "sections": {
     "search": {
         "type": "{{section.settings.section_search | default: \"search\"}}",

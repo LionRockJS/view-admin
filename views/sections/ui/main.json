@@ -1,0 +1,22 @@
+{
+  "wrapper": "div.w-full.bg-paper.border-x.border-gray-200.md:max-w-\\[545px\\]",
+  "sections": {
+    "logo": {
+      "type": "ui/logo",
+      "settings": {
+        "logo_text": "{{section.settings.logo_text}}"
+      }
+    },
+    "main": {
+      "type": "{{section.settings.section_main}}",
+      "settings": {
+        "title": "{{section.settings.title}}",
+        "controller_slug": "{{section.settings.controller_slug}}"
+      }
+    }
+  },
+  "order": [
+    "logo",
+    "main"
+  ]
+}

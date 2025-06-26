@@ -1,11 +1,15 @@
 {
-  "wrapper": "div.container.container-columns",
+  "wrapper": "div.w-full.flex.min-h-screen",
   "sections": {
+    "navigation": {
+      "type": "{{section.settings.section_navigation | default: \"blank\"}}"
+    },
     "main": {
-      "type": "{{section.settings.section_main}}",
+      "type": "ui/main",
       "settings": {
         "title": "{{section.settings.title}}",
-        "controller_slug": "{{section.settings.controller_slug}}"
+        "controller_slug": "{{section.settings.controller_slug}}",
+        "section_main": "{{section.settings.section_main | default: \"blank\"}}"
       }
     },
     "content": {
@@ -14,14 +18,13 @@
         "breadcrumb": "{{section.settings.breadcrumb}}",
         "header": "{{section.settings.section_header}}",
         "section_search": "{{section.settings.section_search | default: \"search\"}}",
-        "section_1": "{{section.settings.section_body}}",
-        "section_2": "{{section.settings.section_menu}}"
+        "section_1": "{{section.settings.section_body}}"
       }
     }
   },
   "order": [
+    "navigation",
     "main",
-    "content",
-    "navigation"
+    "content"
   ]
 }

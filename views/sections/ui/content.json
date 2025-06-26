@@ -13,11 +13,7 @@
       }
     },
     "columns": {
-      "type": "ui/column2",
-      "settings": {
-        "column_1": "{{section.settings.section_1}}",
-        "column_2": "{{section.settings.section_2}}"
-      }
+      "type": "{{section.settings.section_1}}"
     }
   },
   "order": [

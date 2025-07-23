@@ -8,7 +8,7 @@
         "breadcrumb": "Home:/admin,Dashboard:",
         "section_header": "orm-header",
         "section_body": "orm-list",
-        "section_menu": "admin/navigation"
+        "section_navigation": "admin/navigation-icon"
       }
     }
   },

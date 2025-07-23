@@ -1,0 +1,19 @@
+{
+  "wrapper": "div.flex.justify-between.border-b.border-gray-200",
+  "sections": {
+    "column_1": {
+      "type": "{{section.settings.column_1}}",
+      "settings": {
+      }
+    },
+    "column_2": {
+      "type": "{{section.settings.column_2}}",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "column_1",
+    "column_2"
+  ]
+}

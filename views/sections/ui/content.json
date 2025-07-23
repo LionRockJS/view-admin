@@ -1,6 +1,13 @@
 {
   "wrapper": "div.w-full.flex.flex-col",
   "sections": {
+    "tool": {
+      "type": "ui/content-tools",
+        "settings": {
+            "column_1": "{{section.settings.section_search | default: \"search\"}}",
+            "column_2": "admin/account"
+        }
+    },
     "search": {
         "type": "{{section.settings.section_search | default: \"search\"}}",
         "settings": {
@@ -17,7 +24,7 @@
     }
   },
   "order": [
-    "search",
+    "tool",
     "breadcrumb",
     "columns"
   ]

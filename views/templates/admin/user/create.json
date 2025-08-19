@@ -1,0 +1,11 @@
+{
+    "wrapper": "div.container",
+    "sections": {
+      "main": {
+        "type": "admin/user/create"
+      }
+    },
+    "order": [
+      "main"
+    ]
+  }

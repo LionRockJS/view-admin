@@ -1,0 +1,44 @@
+{
+  "wrapper": "div.container.container-columns",
+  "sections": {
+    "main": {
+      "type": "title",
+      "settings": {
+        "title": "User Roles",
+        "section": "empty"
+      }
+    },
+    "content": {
+      "type": "ui/content",
+      "settings": {
+        "breadcrumb": [
+          {
+            "label": "Home",
+            "url": "/admin"
+          },
+          {
+            "label": "User Roles",
+            "url": "/admin/roles"
+          },
+          {
+            "label": "{{ item.name }}",
+            "url": "/admin/roles/{{ item.id }}"
+          }
+        ],
+        "header": "orm-header",
+        "section_1": "admin/user-role/edit",
+        "section_2": "admin/navigation"
+      }
+    },
+
+    "header": {
+      "type": "orm-header",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "content"
+  ]
+}

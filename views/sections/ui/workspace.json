@@ -9,7 +9,8 @@
       "settings": {
         "title": "{{section.settings.title}}",
         "controller_slug": "{{section.settings.controller_slug}}",
-        "section_main": "{{section.settings.section_main | default: \"blank\"}}"
+        "section_main": "{{section.settings.section_main | default: \"blank\"}}",
+        "logo_text": "{{section.settings.logo_text}}"
       }
     },
     "content": {

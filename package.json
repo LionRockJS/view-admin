@@ -19,8 +19,11 @@
   "license": "MIT",
   "author": "Kojin Nakana",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
-    "test": "node --experimental-vm-modules ../../../node_modules/jest/bin/jest.js --coverage"
+    "test": "bun test",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   }
 }
